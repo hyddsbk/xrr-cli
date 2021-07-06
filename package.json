@@ -1,0 +1,34 @@
+{
+  "name": "xrr-cli",
+  "version": "1.0.0",
+  "description": "so easy cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyddsbk/xrr-cli.git"
+  },
+  "bin": {
+    "xr-cli": "./lib/main.js"
+  },
+  "keywords": [
+    "XRR",
+    "CLI"
+  ],
+  "author": "XRR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyddsbk/xrr-cli/issues"
+  },
+  "homepage": "https://github.com/hyddsbk/xrr-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "commander": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.1.1"
+  }
+}
